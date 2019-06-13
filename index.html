@@ -9,6 +9,7 @@
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Megrim&display=swap" rel="stylesheet">
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <title>Crystal Click</title>
 </head>
 <body>
@@ -16,7 +17,7 @@
                 <a class="navbar-brand" href="https://angelajaneleung.github.io/Bootstrap-Portfolio/portfolio.html">&#8592; Back to Portfolio</a>
         </nav>
        <img id="back" src="assets/images/rockywall.png"></img>
-      <!-- /name of the game/ -->
+    
       <div class="row">
           <div class="col-12">
           <h1>The Crystal Wager!</h1>
@@ -31,21 +32,19 @@
       <div class="row">
           <div class="col-1"></div>
           <div class="col-4">
-              <p id="randnumber">Match This
-                  <br>
-                  Number:
+              <p>Match This Number: <p id="randomnumber"></p>
               </p>
           </div>
           <div class="col-4">
-              <p id="usernum">
-                  Your Current
-                  <br>
-                  Number:
+              <p> Your Current Number:
+              <p id="usernumber"></p>
               </p>
           </div>
           <div class="col-3">
-              <p id="winstracker">Wins:</p>
-              <p id="lossestracker"> Losses:</p>
+              <p>Wins:
+              <p id="winstracker"></p></p>
+              <p>Losses:
+              <p id="losstracker"></p></p>
           </div>
       </div>
       <div class="row">
@@ -58,16 +57,16 @@
       <div class="row">
           <div class="col-1"></div>
           <div class="col-3">
-              <button><img class="pic" src="assets/images/green.png"></button>
+              <button id="crystal1"><img class="pic" src="assets/images/green.png"></button>
             </div>
           <div class="col-3">
-              <button><img class="pic" src="assets/images/blue.png"></button>
+              <button id="crystal2"><img class="pic" src="assets/images/blue.png"></button>
             </div>
           <div class="col-3">
-              <button><img class="pic" src="assets/images/rainbow.png"></button>
+              <button id="crystal3"><img class="pic" src="assets/images/rainbow.png"></button>
             </div>
           <div class="col-2">
-              <button><img class="pic" src="assets/images/white.png"></button>
+              <button id="crystal4"><img class="pic" src="assets/images/white.png"></button>
             </div>
       </div>
       <footer></footer>

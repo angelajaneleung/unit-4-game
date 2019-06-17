@@ -36,6 +36,14 @@ button{
    border: none;
    background: none;
 }
+button:hover{
+    transform:scale(0.95);
+}
+button:focus{
+    outline: 0;
+}
+
+
 #randomnumber{
     margin-left: 50px;
     font-weight: bold;

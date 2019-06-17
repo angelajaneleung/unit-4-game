@@ -79,7 +79,7 @@ $(document).ready(function() {
               }) ;   
 //reset function//
               function reset(){
-                Random=Math.floor(Math.random()*(120-19+1)+19;
+                Random=Math.floor(Math.random()*(120-19+1)+19);
                 $('#randomnumber').text(Random);
                 usernumber = 0;
                 $("#usernumber").text(usernumber);
